@@ -90,7 +90,7 @@ Copy-Item -Path "C:\Logfiles\*" -Destination "C:\Drawings" -Recurse
 
 > [!NOTE]
 > If the path `C:\Drawings` doesn't exist the cmdlet copies all the files from the `Logfiles`
-> folder into a single file `C:\Drawings`.
+> folder into a new single folder `C:\Drawings`.
 
 ### Example 3: Copy directory and contents to a new directory
 
